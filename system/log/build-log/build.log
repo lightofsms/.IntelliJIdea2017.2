@@ -4447,3 +4447,4 @@ org.jetbrains.jps.incremental.StopBuildException: Compilation failed: errors: 5;
 2017-09-13 14:47:13,627 [    997]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 70 libraries
 2017-09-13 14:47:13,741 [   1111]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1313
 2017-09-13 14:47:13,879 [   1249]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1251 ms
+2017-09-13 15:11:16,414 [1443784]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.

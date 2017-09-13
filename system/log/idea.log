@@ -4256,3 +4256,91 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 2017-09-13 14:47:12,832 [2367538]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
 2017-09-13 14:47:12,832 [2367538]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
 2017-09-13 14:47:12,832 [2367538]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2017-09-13 15:11:16,592 [3811298]   INFO - ution.rmi.RemoteProcessSupport - Terminating: 60765/RemoteDriverImpl462ab9db 
+2017-09-13 15:11:16,629 [3811335]  ERROR - api.util.objectTree.ObjectNode - Editor of class com.intellij.openapi.editor.impl.EditorImpl hasn't been released: 
+com.intellij.openapi.util.TraceableDisposable.ObjectNotDisposedException: See stack trace responsible for creation of unreleased object below 
+	at com.intellij.openapi.editor.impl.EditorImpl.<init>(EditorImpl.java:157)
+	at com.intellij.openapi.editor.impl.EditorFactoryImpl.a(EditorFactoryImpl.java:220)
+	at com.intellij.openapi.editor.impl.EditorFactoryImpl.createEditor(EditorFactoryImpl.java:175)
+	at com.intellij.ui.EditorTextField.createEditor(EditorTextField.java:463)
+	at com.intellij.ui.EditorTextField.b(EditorTextField.java:365)
+	at com.intellij.ui.EditorTextField.addNotify(EditorTextField.java:348)
+	at com.intellij.ui.EditorTextFieldCellRenderer$RendererComponent.a(EditorTextFieldCellRenderer.java:162)
+	at com.intellij.ui.EditorTextFieldCellRenderer$RendererComponent.<init>(EditorTextFieldCellRenderer.java:147)
+	at com.intellij.ui.EditorTextFieldCellRenderer$AbbreviatingRendererComponent.<init>(EditorTextFieldCellRenderer.java:235)
+	at com.intellij.database.run.ui.grid.renderers.DefaultTextRendererFactory$TextRenderer.getComponent(DefaultTextRendererFactory.java:76)
+	at com.intellij.database.run.ui.TableResultView$GridCellRendererWrapper.getTableCellRendererComponent(TableResultView.java:1043)
+	at com.intellij.database.run.ui.grid.TableCellImageCache$CellRendererWrapper.getTableCellRendererComponent(TableCellImageCache.java:153)
+	at javax.swing.JTable.prepareRenderer(JTable.java:5723)
+	at com.intellij.ui.table.JBTable.prepareRenderer(JBTable.java:530)
+	at com.intellij.database.run.ui.TableResultView.prepareRenderer(TableResultView.java:488)
+	at com.intellij.database.run.ui.TableResultPanel.getCellRendererComponent(TableResultPanel.java:532)
+	at com.intellij.database.run.ui.grid.DefaultGridColumnLayout.getMaximumPreferredWidth(DefaultGridColumnLayout.java:213)
+	at com.intellij.database.run.ui.grid.DefaultGridColumnLayout.updateWidestCellValueCaches(DefaultGridColumnLayout.java:171)
+	at com.intellij.database.run.ui.grid.DefaultGridColumnLayout.newRowsAdded(DefaultGridColumnLayout.java:49)
+	at com.intellij.database.run.ui.TableResultPanel.rowsAdded(TableResultPanel.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.EventDispatcher.dispatch(EventDispatcher.java:99)
+	at com.intellij.util.EventDispatcher.access$200(EventDispatcher.java:35)
+	at com.intellij.util.EventDispatcher$2.invoke(EventDispatcher.java:79)
+	at com.sun.proxy.$Proxy113.rowsAdded(Unknown Source)
+	at com.intellij.database.datagrid.GridListModelBase.rowsAdded(GridListModelBase.java:243)
+	at com.intellij.database.datagrid.GridListModelBase.addRows(GridListModelBase.java:188)
+	at com.intellij.database.datagrid.GridListModelBase.setRows(GridListModelBase.java:182)
+	at com.intellij.database.datagrid.DataBusGridDataHookUp$DataBusLoader.addRows(DataBusGridDataHookUp.java:198)
+	at com.intellij.database.datagrid.DataGridUtil$2$1AddRows.run(DataGridUtil.java:339)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:337)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:327)
+	at com.intellij.util.ui.update.MergingUpdateQueue.lambda$flush$1(MergingUpdateQueue.java:277)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2781)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:288)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:246)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:246)
+	at com.intellij.util.Alarm$Request.runSafely(Alarm.java:417)
+	at com.intellij.util.Alarm$Request.access$700(Alarm.java:344)
+	at com.intellij.util.Alarm$Request$1.run(Alarm.java:384)
+	at com.intellij.util.Alarm$Request.run(Alarm.java:395)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:237)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.g(IdeEventQueue.java:821)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:649)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:365)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2017-09-13 15:11:16,642 [3811348]  ERROR - api.util.objectTree.ObjectNode - IntelliJ IDEA 2017.2.3  Build #IU-172.3968.16 
+2017-09-13 15:11:16,642 [3811348]  ERROR - api.util.objectTree.ObjectNode - JDK: 1.8.0_152-release 
+2017-09-13 15:11:16,642 [3811348]  ERROR - api.util.objectTree.ObjectNode - VM: OpenJDK 64-Bit Server VM 
+2017-09-13 15:11:16,642 [3811348]  ERROR - api.util.objectTree.ObjectNode - Vendor: JetBrains s.r.o 
+2017-09-13 15:11:16,642 [3811348]  ERROR - api.util.objectTree.ObjectNode - OS: Windows 10 
+2017-09-13 15:11:16,642 [3811348]  ERROR - api.util.objectTree.ObjectNode - Last Action: $Delete 
+2017-09-13 15:11:16,642 [3811348]  ERROR - api.util.objectTree.ObjectNode - Current Command: Exit 
+2017-09-13 15:11:16,676 [3811382]   INFO - ution.rmi.RemoteProcessSupport - Terminating: 9442/Maven3ServerImpld50168c9 
+2017-09-13 15:11:16,706 [3811412]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2017-09-13 15:11:16,706 [3811412]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2017-09-13 15:11:16,706 [3811412]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2017-09-13 15:11:16,832 [3811538]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2017-09-13 15:11:16,833 [3811539]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-09-13 15:11:16,897 [3811603]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1061 auto-detected files
+Elapsed time on auto-detect: 720 ms 
+2017-09-13 15:11:16,997 [3811703]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2017-09-13 15:11:18,306 [3813012]   INFO - mbokPluginApplicationComponent - Lombok plugin disposed for IntelliJ 
+2017-09-13 15:11:18,306 [3813012]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2017-09-13 15:11:18,317 [3813023]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2017-09-13 15:11:18,318 [3813024]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2017-09-13 15:11:18,320 [3813026]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
