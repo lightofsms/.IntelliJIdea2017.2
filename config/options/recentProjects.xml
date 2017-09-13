@@ -1,0 +1,77 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="D:/file/project/girl" />
+        <option value="D:/file/project/springboot" />
+        <option value="D:/file/project/see" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="D:/file/project/girl" />
+      </list>
+    </option>
+    <option name="lastPath" value="D:/file/project/girl" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="D:/file/idea/springboot">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.3968.16" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505135085150" />
+              <option name="buildTimestamp" value="1503351284650" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/file/project/bootstrap">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.3968.16" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505135658593" />
+              <option name="buildTimestamp" value="1503351278703" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/file/project/girl">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.3968.16" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505282894416" />
+              <option name="buildTimestamp" value="1503351294474" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/file/project/see">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.3968.16" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505151216906" />
+              <option name="buildTimestamp" value="1503351269498" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="D:/file/project/springboot">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.3968.16" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1505197773742" />
+              <option name="buildTimestamp" value="1503351260214" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="D:/file/project" />
+  </component>
+</application>

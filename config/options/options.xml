@@ -1,0 +1,29 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="installed.kotlin.plugin.version" value="1.1.4-release-IJ2017.2-2" />
+    <property name="android-component-compatibility-check" value="1505119190916" />
+    <property name="file.chooser.recent.files" value="D:/file/project/girl&#10;D:/file/project&#10;D:/file/idea&#10;D:/download/settings.jar" />
+    <property name="ts.lib.d.ts.version" value="2.4.1" />
+    <property name="project.wizard.group" value="SpringInitializr" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (1)" />
+    <property name="project.wizard.template" value="Spring Initializr" />
+    <property name="spring.initializr.service.url.history" value="" />
+    <property name="spring.initializr.service.url.last" value="https://start.spring.io" />
+    <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
+    <property name="file.gist.reindex.count" value="140" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="PLUGIN_FILTER" value="suit&#10;lom&#10;liveedit&#10;live" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="SpringBeansModulesPanel[0]" value="0.22650057" />
+    <property name="JUnitSupport.hidePassedTests" value="false" />
+    <property name="search.everywhere.max.popup.width" value="680" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="com.intellij.database.view.ui.DeleteDialog.previewExpanded" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="KEYMAP" value="build&#10;run" />
+    <property name="selected.color.option.type" value="YAML_COMMENT" />
+    <property name="ColorChooser.RecentColors" value="255-117-0-255,,,255-172-119-255,,,216-215-0-255,,,0-216-17-255,,,136-143-135-255" />
+    <property name="RegistryRecentKeys" value="compiler.automake.allow.when.app.running=actionSystem.fixStickyFocusedWindows" />
+  </component>
+</application>

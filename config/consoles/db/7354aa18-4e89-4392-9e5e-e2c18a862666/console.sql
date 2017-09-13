@@ -1,0 +1,12 @@
+SHOW DATABASES;
+
+CREATE DATABASE girl;
+
+SHOW TABLES;
+
+CREATE TABLE new_table (
+  id INT NOT NULL
+  COMMENT '主键'
+);
+
+

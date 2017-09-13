@@ -1,0 +1,37 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="Console.Jdbc.Execute@EditorToolbar" count="1" />
+      <entry action="Console.TableResult.AddRow@EditorToolbar" count="1" />
+      <entry action="Console.TableResult.DeleteRows@EditorToolbar" count="3" />
+      <entry action="Console.TableResult.Reload@EditorToolbar" count="37" />
+      <entry action="Console.TableResult.ShowQuery@unknown" count="2" />
+      <entry action="Console.TableResult.Submit@EditorToolbar" count="4" />
+      <entry action="DatabaseView.AddActionGroupPopup@ProjectViewToolbar" count="3" />
+      <entry action="DatabaseView.CloseConnectionAction@ProjectViewToolbar" count="4" />
+      <entry action="DatabaseView.PropertiesAction@ProjectViewToolbar" count="7" />
+      <entry action="DatabaseView.SynchronizeAction@ProjectViewToolbar" count="1" />
+      <entry action="Debug@MainToolbar" count="22" />
+      <entry action="FileChooser.NewFolder@FileChooserDialog" count="1" />
+      <entry action="ForceStepInto@DebuggerToolbar" count="1" />
+      <entry action="Jdbc.OpenConsole@ProjectViewToolbar" count="1" />
+      <entry action="Print@RunnerToolbar" count="2" />
+      <entry action="Rerun@DebuggerToolbar" count="3" />
+      <entry action="Rerun@RunnerToolbar" count="2" />
+      <entry action="Run@MainToolbar" count="26" />
+      <entry action="ShowExecutionPoint@DebuggerToolbar" count="11" />
+      <entry action="ShowProjectStructureSettings@MainToolbar" count="1" />
+      <entry action="ShowSettings@MainToolbar" count="10" />
+      <entry action="StepInto@DebuggerToolbar" count="9" />
+      <entry action="StepOut@DebuggerToolbar" count="2" />
+      <entry action="StepOver@DebuggerToolbar" count="36" />
+      <entry action="Stop@MainToolbar" count="14" />
+      <entry action="com.intellij.execution.impl.ConsoleViewImpl$7@RunnerToolbar" count="4" />
+      <entry action="com.intellij.execution.impl.ConsoleViewImpl$7@TestRunnerResults" count="4" />
+      <entry action="com.intellij.execution.impl.ConsoleViewImpl$ClearAllAction@RunnerToolbar" count="22" />
+      <entry action="com.intellij.ide.browsers.actions.BaseWebBrowserAction@ContextToolbar" count="2" />
+      <entry action="com.intellij.openapi.editor.actions.ScrollToTheEndToolbarAction@RunnerToolbar" count="11" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="10" />
+    </counts>
+  </component>
+</application>

@@ -1,0 +1,37 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="738" y="194" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="697" y="321" />
+    <location key="new project wizard.0.0.1920.1080" x="130" y="230" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="962" y="450" />
+    <location key="SettingsEditor.0.0.1920.1080" x="835" y="177" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="1080" y="166" />
+    <location key="#Project_Structure.0.0.1920.1080" x="880" y="0" />
+    <location key="Maven.ArtifactSearchDialog.0.0.1920.1080" x="970" y="191" />
+    <location key="#Plugins.0.0.1920.1080" x="1104" y="61" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="599" y="258" />
+    <location key="com.intellij.database.view.editors.DatabaseObjectCommentEditor$1$1.0.0.1920.1080" x="1344" y="460" />
+    <location key="com.intellij.database.view.ui.AbstractDbRefactoringDialog.0.0.1920.1080" x="651" y="306" />
+    <location key="com.intellij.database.view.ui.DeleteDialog.0.0.1920.1080" x="1368" y="388" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" x="1321" y="226" />
+    <location key="com.intellij.testIntegration.createTest.CreateTestDialog.0.0.1920.1080" x="1208" y="282" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1080" x="240" y="0" />
+    <location key="Registry.0.0.1920.1080" x="1032" y="197" />
+    <size key="new project wizard.0.0.1920.1080" width="885" height="776" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1085" height="702" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="872" height="296" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="872" height="296" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="872" height="296" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="872" height="296" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="872" height="364" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="872" height="364" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="872" height="364" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="872" height="364" />
+    <size key="GridCell.Tab.2.left.0.0.1920.1080" width="872" height="364" />
+    <size key="GridCell.Tab.2.center.0.0.1920.1080" width="872" height="364" />
+    <size key="GridCell.Tab.2.right.0.0.1920.1080" width="872" height="364" />
+    <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="872" height="364" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" width="1060" height="698" />
+    <size key="javadoc.popup.0.0.1920.1080" width="446" height="171" />
+  </component>
+</application>
